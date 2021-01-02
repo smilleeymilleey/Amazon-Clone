@@ -40,6 +40,16 @@
     justify-content: space-evenly;
 }
 
+.header__optionLineOne {
+    font-size: 10px;
+
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
 .header_option {
     display: flex;
     flex-direction: column;
@@ -47,4 +57,15 @@
     margin-right: 10px;
     color: white;
 
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
 }
