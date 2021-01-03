@@ -9,8 +9,9 @@
     padding: 20px;
     max-height: 400px;
     min-width: 100px;
-
+    width: 100%;
 }
+
 
 .product > img {
     max-height: 200px;
@@ -29,4 +30,13 @@
 
 .product__rating {
     color: #f0c14b;
+}
+
+.product__price {
+    margin-top: 5px;
+}
+
+.product__info {
+    height: 100px;
+    margin-bottom: 15px;
 }
