@@ -30,6 +30,7 @@
 
 .product__rating {
     color: #f0c14b;
+    display: flex;
 }
 
 .product__price {
