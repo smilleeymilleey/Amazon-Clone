@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Product.css";
+import StarRateIcon from '@material-ui/icons/StarRate';
 
 function Product() {
     return (
@@ -11,9 +12,8 @@ function Product() {
                     <strong>19.99</strong>
                 </p>
                 <div className="product__rating">
-                    <p>*</p>
-                    <p>*</p>
-                    <p>*</p>  
+                    <StarRateIcon />
+                   
                 </div>
             </div>
 
