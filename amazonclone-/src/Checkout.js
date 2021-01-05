@@ -44,10 +44,6 @@ function Checkout() {
 
                   ))}
 
-                  {/*CheckoutProduct*/}
-                   {/*CheckoutProduct*/}
-                    {/*CheckoutProduct*/}
-                     {/*CheckoutProduct*/}
              
                 </div>
 
