@@ -16,7 +16,7 @@ function Subtotal() {
             renderText={(value) => (
                 <>
                  <p>
-                    {/*pass in the value prop*/}
+                    
                   Subtotal ({basket.length} items): 
                    <strong>{value}</strong>
                  </p>
@@ -27,7 +27,7 @@ function Subtotal() {
                 </>
             )}
             decimalScale={2}
-            value={getBasketTotal(basket)} //* part of the homework*
+            value={getBasketTotal(basket)} 
             displayType={"text"}
             thousandSeparator={true}
             prefix={"$"}
